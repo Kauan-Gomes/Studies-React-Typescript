@@ -6,14 +6,18 @@
         "cronometro"
         "tarefas"
     ;
-    row-gap: 24px;
+    row-gap: 124px;
     min-width: 320px;
     min-height: calc(100vh - 32px);
     width: 100%;
-    padding: 32px;
+    padding: 5%;
     box-sizing: border-box;
     border-radius: 10px;
-    background-color: #160114;
+    background-color: rgba(4, 40, 65, 0.712);
+    
+    
+    
+    
 
     @media screen and (min-width:1280px) {
         grid-template-areas:

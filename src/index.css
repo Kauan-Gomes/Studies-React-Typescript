@@ -80,11 +80,27 @@ body {
 	justify-content: center;
 	font-family: 'Manjari', sans-serif;
 	color: #F0F0F0;
-	background-color: #4C4C4C;
 	height: 100%;
 	width: 100%;
-	padding: 16px;
+	padding: 0 5%;
 	box-sizing: border-box;
+	background-color: rgb(92, 190, 190);
+	background-image: url('./assets/img/fundo.svg') ;
+	background-repeat:round;
+    background-size:400px;
+
+}
+
+@media screen and (min-width:1280px) {
+	body{
+		
+	}
+}
+
+@media screen and (min-width:768px) {
+	body{
+		
+	}
 }
 
 #root {
